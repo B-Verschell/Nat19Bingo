@@ -1,10 +1,11 @@
 {
   "name": "nat19-bingo",
-  "homepage" : "https://arcaneillumination.github.io/nat19bingo/",
+  "homepage": "https://arcaneillumination.github.io/nat19bingo/",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.5.1",
     "@material-ui/styles": "^4.5.2",
+    "gh-pages": "^3.1.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"
@@ -15,7 +16,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "-b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
