@@ -2,7 +2,7 @@
   "name": "nat19-bingo",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://myname.github.io/myapp",
+  "homepage" : "https://arcaneillumination.github.io/nat19bingo/",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.5.1",
