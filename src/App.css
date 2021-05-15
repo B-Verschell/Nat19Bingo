@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: 'linear-gradient(135deg, #330665 40%, #D00117 90%)';
+  color: white;
 }
 
 .App-link {
