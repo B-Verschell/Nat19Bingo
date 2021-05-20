@@ -2,7 +2,7 @@
     
     {
         "id": 1,
-        "item": "A donation goal is met absurdly fast"
+        "item": "Merihim flirts with someone"
     },
     {
         "id": 2,
@@ -38,7 +38,7 @@
     },
     {
         "id": 10,
-        "item": "Logan unveils new art"
+        "item": "Logan unveils new art (does not count thumbnail)"
     },
     {
         "id": 11,
@@ -50,7 +50,7 @@
     },
     {
         "id": 13,
-        "item": "A donation goal is met absurdly fast"
+        "item": "Quintus's and Merrihim's adventure in the swamp is mentioned"
     },
     {
         "id": 14,
@@ -122,7 +122,7 @@
     },
     {
         "id": 31,
-        "item": "\"Con-based performance check\""
+        "item": "The time-honored Nat19 tradition of \"Con-based performance check\""
     },
     {
         "id": 32,
@@ -179,13 +179,5 @@
     {
         "id": 45,
         "item": "Carrie rolls a one"
-    },
-    {
-        "id": 46,
-        "item": "Merihim flirts with someone"
-    },
-    {
-        "id": 47,
-        "item": "Quintus's and Merrihim's adventure in the swamp is mentioned"
     }
 ]
