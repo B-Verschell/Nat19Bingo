@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/nat19bingo/static/css/main.15c1e44e.chunk.css",
-    "main.js": "/nat19bingo/static/js/main.807c7eee.chunk.js",
-    "main.js.map": "/nat19bingo/static/js/main.807c7eee.chunk.js.map",
-    "runtime-main.js": "/nat19bingo/static/js/runtime-main.bb57e66e.js",
-    "runtime-main.js.map": "/nat19bingo/static/js/runtime-main.bb57e66e.js.map",
-    "static/js/2.567a10cf.chunk.js": "/nat19bingo/static/js/2.567a10cf.chunk.js",
-    "static/js/2.567a10cf.chunk.js.map": "/nat19bingo/static/js/2.567a10cf.chunk.js.map",
+    "main.css": "/nat19bingo/static/css/main.7ab8159f.chunk.css",
+    "main.js": "/nat19bingo/static/js/main.cef8ba05.chunk.js",
+    "main.js.map": "/nat19bingo/static/js/main.cef8ba05.chunk.js.map",
+    "runtime-main.js": "/nat19bingo/static/js/runtime-main.d3df5028.js",
+    "runtime-main.js.map": "/nat19bingo/static/js/runtime-main.d3df5028.js.map",
+    "static/js/2.6a10d797.chunk.js": "/nat19bingo/static/js/2.6a10d797.chunk.js",
+    "static/js/2.6a10d797.chunk.js.map": "/nat19bingo/static/js/2.6a10d797.chunk.js.map",
     "index.html": "/nat19bingo/index.html",
-    "precache-manifest.13b16506def1cc96a42eb447f79a9acc.js": "/nat19bingo/precache-manifest.13b16506def1cc96a42eb447f79a9acc.js",
-    "service-worker.js": "/nat19bingo/service-worker.js",
-    "static/css/main.15c1e44e.chunk.css.map": "/nat19bingo/static/css/main.15c1e44e.chunk.css.map"
+    "static/css/main.7ab8159f.chunk.css.map": "/nat19bingo/static/css/main.7ab8159f.chunk.css.map",
+    "static/js/2.6a10d797.chunk.js.LICENSE.txt": "/nat19bingo/static/js/2.6a10d797.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.bb57e66e.js",
-    "static/js/2.567a10cf.chunk.js",
-    "static/css/main.15c1e44e.chunk.css",
-    "static/js/main.807c7eee.chunk.js"
+    "static/js/runtime-main.d3df5028.js",
+    "static/js/2.6a10d797.chunk.js",
+    "static/css/main.7ab8159f.chunk.css",
+    "static/js/main.cef8ba05.chunk.js"
   ]
 }
