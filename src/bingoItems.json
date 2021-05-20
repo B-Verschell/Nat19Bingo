@@ -30,7 +30,7 @@
     },
     {
         "id": 8,
-        "item": " A nat 19 is rolled"
+        "item": "A nat 19 is rolled"
     },
     {
         "id": 9,
@@ -58,7 +58,7 @@
     },
     {
         "id": 15,
-        "item": "Hayden cries"
+        "item": "An Avianna bird joke is made"
     },
     {
         "id": 16,
@@ -187,9 +187,5 @@
     {
         "id": 47,
         "item": "Quintus's and Merrihim's adventure in the swamp is mentioned"
-    },
-    {
-        "id": 48,
-        "item": "An Avianna bird joke is made"
     }
 ]
