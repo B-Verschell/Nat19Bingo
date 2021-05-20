@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.css';
 import { Typography, Card, Grid, CardContent} from '@material-ui/core';
-import bingoItems from './bingoItems.json';
+import bingoItems from './vestigeBingo.json';
 import { styled } from '@material-ui/core/styles';
 import BingoHeader from './components/bingoHeader';
+import NoticeHeader from './components/noticeHeader';
+import BingoFooter from './components/bingoFooter';
 
 
 var itemList=[]
@@ -167,11 +169,13 @@ class App extends React.Component {
         return (
           <>
           <BingoHeader />
+          <NoticeHeader/>
           {this.bingoRow(1)}
           {this.bingoRow(2)}
           {this.bingoRow(3)}
           {this.bingoRow(4)}
           {this.bingoRow(5)}
+          <BingoFooter />
           </>
           )};
         }
