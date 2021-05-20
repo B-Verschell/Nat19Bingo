@@ -2,7 +2,7 @@
     
     {
         "id": 1,
-        "item": "A donation goal is met absurdly fast"
+        "item": "Merihim flirts with someone"
     },
     {
         "id": 2,
@@ -50,7 +50,7 @@
     },
     {
         "id": 13,
-        "item": "A donation goal is met absurdly fast"
+        "item": "Quintus's and Merrihim's adventure in the swamp is mentioned"
     },
     {
         "id": 14,
@@ -179,13 +179,5 @@
     {
         "id": 45,
         "item": "Carrie rolls a one"
-    },
-    {
-        "id": 46,
-        "item": "Merihim flirts with someone"
-    },
-    {
-        "id": 47,
-        "item": "Quintus's and Merrihim's adventure in the swamp is mentioned"
     }
 ]
