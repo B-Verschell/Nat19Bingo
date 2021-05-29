@@ -7,8 +7,6 @@ function noticeHeader () {
         <Typography gutterBottom>
           A reminder to the players/gm: please do not do things to purposefully gain bingo sqaures.
       </Typography>
-      <P>
-          </P>
       <Typography gutterBottom>
           Also chat, please do not ask the players/gm to do things for bingo squares.
       </Typography>
