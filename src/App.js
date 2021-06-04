@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Typography, Card, Grid, CardContent} from '@material-ui/core';
-import bingoItems from './vestigeBingo.json';
+import bingoItems from './dmsBingo.json';
 import { styled } from '@material-ui/core/styles';
 import BingoHeader from './components/bingoHeader';
 import NoticeHeader from './components/noticeHeader';
