@@ -5,12 +5,15 @@ function noticeHeader () {
     return (
         <Grid container justify="center" alignItems="center">
         <Typography gutterBottom>
+            <p>
         Players/DM/Chat please let bingo squares be organically occuring. 
-      </Typography>
-      <Typography gutterBottom>
-          <p>
+        </p>
+        <p>
       Do not force or attempt to cause players to match them.
       </p>
+      </Typography>
+      <Typography gutterBottom>
+          
       </Typography>
       </Grid>
 
