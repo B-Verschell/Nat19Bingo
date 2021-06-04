@@ -8,7 +8,9 @@ function noticeHeader () {
         Players/DM/Chat please let bingo squares be organically occuring. 
       </Typography>
       <Typography gutterBottom>
+          <p>
       Do not force or attempt to cause players to match them.
+      </p>
       </Typography>
       </Grid>
 
