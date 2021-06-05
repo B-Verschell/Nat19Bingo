@@ -12,9 +12,6 @@ function noticeHeader () {
       Do not force or attempt to cause players to match them.
       </p>
       </Typography>
-      <Typography gutterBottom>
-          
-      </Typography>
       </Grid>
 
     )
