@@ -2,7 +2,7 @@
     
     {
         "id": 1,
-        "item": "Merihim flirts with someone"
+        "item": "Someone drops a huge donation or a large number of gift subs"
     },
     {
         "id": 2,
@@ -18,170 +18,186 @@
     },
     {
         "id": 5,
-        "item": "Carrie rolls a one on a d20"
+        "item":"A player experiences instant karma/regret"
     },
     {
         "id": 6,
-        "item": "A player experiences instant karma/regret"
+        "item":"At least 50% of the players fall for a newly introduced NPC"
     },
     {
         "id": 7,
-        "item": "At least 50% of the players fall for a newly introduced NPC"
+        "item":"A nat 19 is rolled"
     },
     {
         "id": 8,
-        "item": "A nat 19 is rolled"
+        "item":"Logan unveils new art (does not count thumbnail)"
     },
     {
         "id": 9,
-        "item": "\"Gottem\""
+        "item":"Someone is distracted by fanart"
     },
     {
         "id": 10,
-        "item": "Logan unveils new art (does not count thumbnail)"
+        "item":"Someone is not logged into Fantasy Grounds by the time they should be"
     },
     {
         "id": 11,
-        "item": "\"Bread, you need a new computer\""
+        "item":"Emerald talks"
     },
     {
         "id": 12,
-        "item": "Someone is distracted by fanart"
+        "item":"Cody says \"wife\""
     },
     {
         "id": 13,
-        "item": "Quintus's and Merrihim's adventure in the swamp is mentioned"
+        "item":"Spencer gets crit on"
     },
     {
         "id": 14,
-        "item": "Someone is not logged into Fantasy Grounds by the time they should be"
+        "item":"Barking or other noise in background"
     },
     {
         "id": 15,
-        "item": "An Avianna bird joke is made"
+        "item":"Technical difficulties"
     },
     {
         "id": 16,
-        "item": "A player asks for favor/inspiration after doing the recap"
+        "item":"Shit hits the fan in game"
     },
     {
         "id": 17,
-        "item": "Emerald talks"
+        "item":"Discuss weird topic pre-stream"
     },
     {
         "id": 18,
-        "item": "\"Wife?\""
+        "item":"A separate/private call occurs"
     },
     {
         "id": 19,
-        "item": "Vogun gets crit on"
+        "item":"“Mansion Game” chant."
     },
     {
         "id": 20,
-        "item": "Barking or other noise in background"
+        "item":"The intro is interrupted"
     },
     {
         "id": 21,
-        "item": "Technical difficulties"
+        "item":"Spencer complains"
     },
     {
         "id": 22,
-        "item": "Shit hits the fan in game"
+        "item":"People complain about doing the recap"
     },
     {
         "id": 23,
-        "item": "Someone drops a huge donation or gift subs"
+        "item":"Multiple rerolls for who does the recap"
     },
     {
         "id": 24,
-        "item": "Discuss weird topic pre-stream"
+        "item":"Someone apologizes for long emotional dialogue "
     },
     {
         "id": 25,
-        "item": "A separate/private call occurs"
+        "item":"The time-honored Nat19 tradition of “Con-based performance checks”"
     },
     {
         "id": 26,
-        "item": "\"Mansion Game\" chant"
+        "item":"Aaron saying “Fahck you”"
     },
     {
         "id": 27,
-        "item": "Spencer complains"
+        "item":"Logan says “Heck’n”"
     },
     {
         "id": 28,
-        "item": "People complain about doing the recap"
+        "item":"Returning a line to someone by saying “No You”"
     },
     {
         "id": 29,
-        "item": "Multiple rerolls for who does the recap"
+        "item":"“Gottem”"
     },
     {
         "id": 30,
-        "item": "Someone apologizes for long emotional dialogue"
+        "item":"Logan says to remove a bingo square"
     },
     {
         "id": 31,
-        "item": "The time-honored Nat19 tradition of \"Con-based performance check\""
+        "item":"Player ordered food and it arives during the stream"
     },
     {
         "id": 32,
-        "item": "Aaron saying \"Fahck you\""
+        "item":"There are numbers on the die between 1 and 20!"
     },
     {
         "id": 33,
-        "item": "Logan says \"Heck’n\""
+        "item":"Someone makes a mistake with targeting in Fantasy Grounds"
     },
     {
         "id": 34,
-        "item": "Quintus RISES WITH THE SUN!!"
+        "item":"“We’re playing nat19” (AKA an enemy survives with 1 HP)"
     },
     {
         "id": 35,
-        "item": "Bread is bullied"
+        "item":"Call back to non-D&D related pre-stream topic"
     },
     {
         "id": 36,
-        "item": "Logan mentions that he hasn’t had anything to eat yet today"
+        "item":"A character in the game doesn’t understand an innuendo"
     },
     {
         "id": 37,
-        "item": "Logan has to corral the characters back to the game"
+        "item":"Bread is bullied"
     },
     {
         "id": 38,
-        "item": "\"Sorry Stewie\""
+        "item":"Logan mentions that he hasn’t had anything to eat yet today"
     },
     {
         "id": 39,
-        "item": "Carrie threatens someone"
+        "item":"Logan has to corral the characters back to the game"
     },
     {
         "id": 40,
-        "item": "Carrie rants"
+        "item":"“Sorry Stewie”"
     },
     {
         "id": 41,
-        "item": "Returning a line to someone and saying \"No You.\""
+        "item":"Carrie threatens someone"
     },
     {
         "id": 42,
-        "item": "Logan says \"Are you sure?\" and the player backs out"
+        "item":"Carrie rants"
     },
     {
         "id": 43,
-        "item": "Logan tricks everyone with minimal effort"
+        "item":"Logan says “Are you sure?” and the player decides to not do something"
     },
     {
         "id": 44,
-        "item": "Bread and Hayden talk about musical theatre"
+        "item":"Logan tricks everyone with minimal effort"
     },
     {
         "id": 45,
-        "item": "Carrie cries"
+        "item":"Carrie cries"
     },
     {
         "id": 46,
-        "item": "Logan advises that a bingo square should be removed"
+        "item":"Carrie rolls a one"
+    },
+    {
+        "id": 47,
+        "item":"Bread and Hayden talk about musical theatre"
+    },
+    {
+        "id": 48,
+        "item":"Merihim flirts with someone"
+    },
+    {
+        "id": 49,
+        "item":"An Avianna bird joke is made"
+    },
+    {
+        "id": 50,
+        "item":"Quintus RISES WITH THE SUN"
     }
 ]
