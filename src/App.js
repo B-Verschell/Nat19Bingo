@@ -9,7 +9,7 @@ class App extends Component{
         return(
             <Router>
                 <Route exact path='/nat19bingo' component={Home}></Route>
-                <Route path='/nat19bingo/bingo' component={Bingo}></Route>
+                <Route path='/nat19bingo/game/:game' component={Bingo}></Route>
             </Router>
         )
     }
