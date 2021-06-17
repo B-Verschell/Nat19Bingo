@@ -9,8 +9,8 @@ function home(){
                 <h1>Pick the campaign to generate a bingo card for</h1>
                 Campaigns that do not have a bingo card are disabled (non-current campagins can still be played using the VODs once they have a card)
             </center>
-            <Button varriant="link" className="btn btn-primary btn-lg btn-block"><Link to ={`/nat19bingo/game/vestige`}>Vestige of Ophiuchus</Link></Button>
-            <Button varriant="link" className="btn btn-primary btn-lg btn-block"><Link to ={`/nat19bingo/game/dms`}>Devils Might Surrender</Link></Button>
+            <Button varriant="link" className="btn btn-primary btn-lg btn-block"><Link to ={`/nat19bingo/vestige`}>Vestige of Ophiuchus</Link></Button>
+            <Button varriant="link" className="btn btn-primary btn-lg btn-block"><Link to ={`/nat19bingo/dms`}>Devils Might Surrender</Link></Button>
             <Button className="btn btn-primary btn-lg btn-block" disabled>Fate/Solar Shadow</Button>
             <Button className="btn btn-primary btn-lg btn-block" disabled>Digimon Emblem Story</Button>
             <Button className="btn btn-primary btn-lg btn-block" disabled>Tomb of Annihilation</Button>
