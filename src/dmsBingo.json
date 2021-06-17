@@ -2,7 +2,7 @@
     
     {
         "id": 1,
-        "item": "Logan advises that a bingo square should be removed"
+        "item": "Someone drops a huge donation or a large number of gift subs"
     },
     {
         "id": 2,
@@ -18,118 +18,154 @@
     },
     {
         "id": 5,
-        "item": "Squeaky speaks in spanish"
+        "item":"A player experiences instant karma/regret"
     },
     {
         "id": 6,
-        "item": "A player experiences instant karma/regret"
+        "item":"At least 50% of the players fall for a newly introduced NPC"
     },
     {
         "id": 7,
-        "item": "At least 50% of the players fall for a newly introduced NPC"
+        "item":"A nat 19 is rolled"
     },
     {
         "id": 8,
-        "item": "A nat 19 is rolled"
+        "item":"Logan unveils new art (does not count thumbnail)"
     },
     {
         "id": 9,
-        "item": "\"Gottem\""
+        "item":"Someone is distracted by fanart"
     },
     {
         "id": 10,
-        "item": "Logan unveils new art (does not count thumbnail)"
+        "item":"Someone is not logged into Fantasy Grounds by the time they should be"
     },
     {
         "id": 11,
-        "item": "[X] hasn’t been the same since Squeaky became a v-tuber. "
+        "item":"Emerald talks"
     },
     {
         "id": 12,
-        "item": "Someone is distracted by fanart"
+        "item":"Cody says \"wife\""
     },
     {
         "id": 13,
-        "item": "Aaron uses the Ring of Wonder"
+        "item":"Spencer gets crit on"
     },
     {
         "id": 14,
-        "item": "Someone is not logged into Fantasy Grounds by the time they should be"
+        "item":"Barking or other noise in background"
     },
     {
         "id": 15,
-        "item": "Logan tricks everyone with minimal effort"
+        "item":"Technical difficulties"
     },
     {
         "id": 16,
-        "item": "A player asks for favor/inspiration after doing the recap"
+        "item":"Shit hits the fan in game"
     },
     {
         "id": 17,
-        "item": "Emerald talks"
+        "item":"Discuss weird topic pre-stream"
     },
     {
         "id": 18,
-        "item": "Logan says \"Are you sure?\" and the player backs out"
+        "item":"A separate/private call occurs"
     },
     {
         "id": 19,
-        "item": "Returning a line to someone and saying \"No You.\""
+        "item":"\"Mansion Game\" chant."
     },
     {
         "id": 20,
-        "item": "Barking or other noise in background"
+        "item":"The intro is interrupted"
     },
     {
         "id": 21,
-        "item": "Technical difficulties"
+        "item":"Spencer complains"
     },
     {
         "id": 22,
-        "item": "Shit hits the fan in game"
+        "item":"People complain about doing the recap"
     },
     {
         "id": 23,
-        "item": "Someone drops a huge donation or gift subs"
+        "item":"Multiple rerolls for who does the recap"
     },
     {
         "id": 24,
-        "item": "Discuss weird topic pre-stream"
+        "item":"Someone apologizes for long emotional dialogue "
     },
     {
         "id": 25,
-        "item": "A separate/private call occurs"
+        "item":"The time-honored Nat19 tradition of \"Con-based performance checks\""
     },
     {
         "id": 26,
-        "item": "Logan has to corral the players back to the game"
+        "item":"Aaron saying \"Fahck you\""
     },
     {
         "id": 27,
-        "item": "Logan says \"Heck’n\""
+        "item":"Logan says \"Heck’n\""
     },
     {
         "id": 28,
-        "item": "People complain about doing the recap"
+        "item":"Returning a line to someone by saying \"No You\""
     },
     {
         "id": 29,
-        "item": "Multiple rerolls for who does the recap"
+        "item":"\"Gottem\""
     },
     {
         "id": 30,
-        "item": "The time-honored Nat19 tradition of \"Con-based performance check\""
+        "item":"Logan says to remove a bingo square"
     },
     {
         "id": 31,
-        "item": "Logan is Interrupted in the intro"
+        "item":"Player ordered food and it arives during the stream"
     },
     {
         "id": 32,
-        "item": "Aaron saying \"Fahck you\""
+        "item":"There are numbers on the die between 1 and 20!"
     },
     {
         "id": 33,
-        "item": "Spencer complains"
+        "item":"Someone makes a mistake with targeting in Fantasy Grounds"
+    },
+    {
+        "id": 34,
+        "item":"\"We’re playing nat19\" (AKA an enemy survives with 1 HP)"
+    },
+    {
+        "id": 35,
+        "item":"Call back to non-D&D related pre-stream topic"
+    },
+    {
+        "id": 36,
+        "item":"A character in the game doesn’t understand an innuendo"
+    },
+    {
+        "id": 37,
+        "item":"\"Have fun or else!\""
+    },
+    {
+        "id": 38,
+        "item":"Mariley speaks in spanish"
+    },
+    {
+        "id": 37,
+        "item":"[X] hasn’t been the same since Squeaky became a v-tuber"
+    },
+    {
+        "id": 37,
+        "item":"Immanuel uses the Ring of Wonder"
+    },
+    {
+        "id": 37,
+        "item":"In reference to discussing Mariley's job \"There's a child nearby!\""
+    },
+    {
+        "id": 37,
+        "item":"A player goes from maximum style points to zero from rolling a 1"
     }
 ]
