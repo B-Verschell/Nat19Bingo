@@ -14,7 +14,7 @@ function noticeHeader () {
       <p>
       DMs intervention: If players are not present in a stream, you may check up off to three squares related to those player's characters.
       </p>
-      <a href="https://forms.gle/2aCqzeRURZsamgvRA">Use this form to suggest new squares</a>
+      <a href="https://forms.gle/2aCqzeRURZsamgvRA" target="_blank">Use this form to suggest new squares (Opens in new window)</a>
       </Typography>
       </Grid>
     )
