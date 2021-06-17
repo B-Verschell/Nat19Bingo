@@ -39,8 +39,8 @@ class Bingo extends React.Component {
   constructor(props) {
     super(props);
     const url=window.location.href
-    console.log(url.substring(url.search("game/")+5))
-    const game=url.substring(url.search("game/")+5)
+    console.log(url.substring(url.search("ingo/")+5))
+    const game=url.substring(url.search("ingo/")+5)
     console.log(game)
     if(game=="vestige"){
       this.bingoSetup(vestigeItems)
