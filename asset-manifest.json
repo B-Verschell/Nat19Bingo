@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/nat19bingo/static/css/main.6a190ec1.chunk.css",
-    "main.js": "/nat19bingo/static/js/main.8cce6f16.chunk.js",
-    "main.js.map": "/nat19bingo/static/js/main.8cce6f16.chunk.js.map",
+    "main.css": "/nat19bingo/static/css/main.5986aa68.chunk.css",
+    "main.js": "/nat19bingo/static/js/main.e690ecb4.chunk.js",
+    "main.js.map": "/nat19bingo/static/js/main.e690ecb4.chunk.js.map",
     "runtime-main.js": "/nat19bingo/static/js/runtime-main.d3df5028.js",
     "runtime-main.js.map": "/nat19bingo/static/js/runtime-main.d3df5028.js.map",
-    "static/js/2.4227605f.chunk.js": "/nat19bingo/static/js/2.4227605f.chunk.js",
-    "static/js/2.4227605f.chunk.js.map": "/nat19bingo/static/js/2.4227605f.chunk.js.map",
+    "static/css/2.d45d6843.chunk.css": "/nat19bingo/static/css/2.d45d6843.chunk.css",
+    "static/js/2.4711116e.chunk.js": "/nat19bingo/static/js/2.4711116e.chunk.js",
+    "static/js/2.4711116e.chunk.js.map": "/nat19bingo/static/js/2.4711116e.chunk.js.map",
     "index.html": "/nat19bingo/index.html",
-    "static/css/main.6a190ec1.chunk.css.map": "/nat19bingo/static/css/main.6a190ec1.chunk.css.map",
-    "static/js/2.4227605f.chunk.js.LICENSE.txt": "/nat19bingo/static/js/2.4227605f.chunk.js.LICENSE.txt"
+    "static/css/2.d45d6843.chunk.css.map": "/nat19bingo/static/css/2.d45d6843.chunk.css.map",
+    "static/css/main.5986aa68.chunk.css.map": "/nat19bingo/static/css/main.5986aa68.chunk.css.map",
+    "static/js/2.4711116e.chunk.js.LICENSE.txt": "/nat19bingo/static/js/2.4711116e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d3df5028.js",
-    "static/js/2.4227605f.chunk.js",
-    "static/css/main.6a190ec1.chunk.css",
-    "static/js/main.8cce6f16.chunk.js"
+    "static/css/2.d45d6843.chunk.css",
+    "static/js/2.4711116e.chunk.js",
+    "static/css/main.5986aa68.chunk.css",
+    "static/js/main.e690ecb4.chunk.js"
   ]
 }
