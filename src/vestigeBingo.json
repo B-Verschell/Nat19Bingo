@@ -5,10 +5,6 @@
         "item": "Someone drops a huge donation or a large number of gift subs"
     },
     {
-        "id": 2,
-        "item": "Logan mentions art he has not revealed"
-    },
-    {
         "id": 3,
         "item": "Briar shows up"
     },
@@ -30,23 +26,7 @@
     },
     {
         "id": 8,
-        "item":"Logan unveils new art (does not count thumbnail)"
-    },
-    {
-        "id": 9,
-        "item":"Someone is distracted by fanart"
-    },
-    {
-        "id": 10,
-        "item":"Someone is not logged into Fantasy Grounds by the time they should be"
-    },
-    {
-        "id": 11,
-        "item":"Emerald talks"
-    },
-    {
-        "id": 12,
-        "item":"Cody says \"wife\""
+        "item":"Logan unveils new art that is used in game"
     },
     {
         "id": 13,
@@ -65,52 +45,24 @@
         "item":"Shit hits the fan in game"
     },
     {
-        "id": 17,
-        "item":"Discuss weird topic pre-stream"
-    },
-    {
         "id": 18,
         "item":"A separate/private call occurs"
     },
     {
         "id": 19,
-        "item":"\"Mansion Game\" chant."
-    },
-    {
-        "id": 20,
-        "item":"The intro is interrupted"
+        "item":"\"Mansion Game\" section occurs (must be 1+ hours long)"
     },
     {
         "id": 21,
         "item":"Spencer complains"
     },
     {
-        "id": 22,
-        "item":"People complain about doing the recap"
-    },
-    {
-        "id": 23,
-        "item":"Multiple rerolls for who does the recap"
-    },
-    {
-        "id": 24,
-        "item":"Someone apologizes for long emotional dialogue "
-    },
-    {
         "id": 25,
         "item":"The time-honored Nat19 tradition of \"Con-based performance checks\""
     },
     {
-        "id": 26,
-        "item":"Aaron saying \"Fahck you\""
-    },
-    {
         "id": 27,
         "item":"Logan says \"Heck’n\""
-    },
-    {
-        "id": 28,
-        "item":"Returning a line to someone by saying \"No You\""
     },
     {
         "id": 29,
@@ -119,10 +71,6 @@
     {
         "id": 31,
         "item":"Player ordered food and it arives during the stream"
-    },
-    {
-        "id": 32,
-        "item":"There are numbers on the die between 1 and 20!"
     },
     {
         "id": 33,
@@ -141,10 +89,6 @@
         "item":"A character in the game doesn’t understand an innuendo"
     },
     {
-        "id": 51,
-        "item":"\"Have fun or else!\""
-    },
-    {
         "id": 37,
         "item":"Bread is bullied"
     },
@@ -154,46 +98,62 @@
     },
     {
         "id": 39,
-        "item":"Logan has to corral the characters back to the game"
+        "item":"Reality reasserts itself​"
     },
     {
         "id": 40,
         "item":"\"Sorry Stewie\""
     },
     {
-        "id": 41,
+        "id": 12,
         "item":"Carrie threatens someone"
     },
     {
-        "id": 42,
-        "item":"Carrie rants"
-    },
-    {
-        "id": 43,
-        "item":"Logan says \"Are you sure?\" and the player decides to not do something"
-    },
-    {
-        "id": 44,
-        "item":"Logan tricks everyone with minimal effort"
-    },
-    {
-        "id": 45,
+        "id": 11,
         "item":"Carrie cries"
     },
     {
-        "id": 46,
+        "id": 32,
         "item":"Carrie rolls a one"
     },
     {
-        "id": 48,
+        "id": 2,
         "item":"Merihim flirts with someone"
     },
     {
-        "id": 49,
+        "id": 23,
         "item":"An Avianna bird joke is made"
     },
     {
-        "id": 50,
-        "item":"Quintus RISES WITH THE SUN"
+        "id": 20,
+        "item":"One or more players just breaks down into laughter."
+    },
+    {
+        "id": 17,
+        "item":"A player forgets to unmute"
+    },
+    {
+        "id": 9,
+        "item":"Bread says \"LISTEN!\""
+    },
+    {
+        "id": 41,
+        "item":"Aviana epically kills something by stabbing it in the eye"
+    },
+    {
+        "id": 22,
+        "item":"Cute romance moment between two characters"
+    },
+    {
+        "id": 42,
+        "item":"\"Why do/don't they have advantage/disadvantage?\""
+    },
+    {
+        "id": 24,
+        "item":"Brute-forced the puzzle"
+    },
+    {
+        "id": 10,
+        "item":"\"Sidebar:...\""
     }
 ]
