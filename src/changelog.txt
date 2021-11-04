@@ -30,9 +30,9 @@ Pre 7/30/21 -
         "\"Why do/don't they have advantage/disadvantage?\"" to dms and vestige.
         "Brute-forced the puzzle" to dms and vestige
         "\"Sidebar:...\"" to dms and vestige
-    Removed the following squares:
-        "Carrie rants" from vestige (Might bring back when I have variable rarity)
-        "Aaron saying \"Fahck you\"" from dms and vestige
+    Removed the following squares (Some will likely be brought back when I implement some squares being less likely to show up then others, but are too rare for now):
+        "Carrie rants" from vestige (Enough overlap with other squares)
+        "Aaron saying \"Fahck you\"" from dms and vestige (hasn't happened for a while as far as I can recall)
         "\"Mansion Game\" chant." from dms
-        "Someone is not logged into Fantasy Grounds by the time they should be" from dms and vestige
-        "\"Let the game catch up with itself\"" from dms and vestige
+        "Someone is not logged into Fantasy Grounds by the time they should be" from dms and vestige (if it doesn't happen at the beginning of game, it becomes a dead square)
+        "\"Let the game catch up with itself\"" from dms and vestige (hasn't happened for a while as far as I can recall)
