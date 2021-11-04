@@ -1,0 +1,38 @@
+Pre 7/30/21 - 
+    Making of app and various unrecorded changes.
+
+7/30/21 -
+    Removal of squares that become dead after certain points in time such as ones that are based off of the recap, prestream, and other similar occurences. 
+    Removed "Someone is distracted by fanart or another player's commissioned art" due to it not happening in a while.
+    Added changelog.
+    Changed "Immanuel uses the Ring of Wonder" to "Immanuel uses Bastet's Collar"
+
+9/03/21 - 
+    Removed the following squares:
+        "Emerald Talks"
+        "There are numbers on the dice besides 1 and 20!"
+        "Logan says \"Are you sure?\" and the player decides to not do something"
+        "Logan tricks everyone with minimal effort"
+        "Someone apologizes for long emotional dialogue"
+        "Returning a line to someone by saying \"No You\""
+        "\"Have fun or else!\""
+    Added "Aviana epically kills something by stabbing it in the eye" to Vestige
+    Added "Cute romance moment between two characters" to all
+    Changed ""\"Mansion Game\" chant" to "\"Mansion Game\" section occurs (must be 1+ hours long)"
+
+9/11/21 - 
+    Removed the following squares due to the events surroudning Quintus in the previous session:
+        "Cody says \"wife\""
+        "Quintus RISES WITH THE SUN"
+
+11/04/21 - 
+    Added the following squares:
+        "\"Why do/don't they have advantage/disadvantage?\"" to dms and vestige.
+        "Brute-forced the puzzle" to dms and vestige
+        "\"Sidebar:...\"" to dms and vestige
+    Removed the following squares:
+        "Carrie rants" from vestige (Might bring back when I have variable rarity)
+        "Aaron saying \"Fahck you\"" from dms and vestige
+        "\"Mansion Game\" chant." from dms
+        "Someone is not logged into Fantasy Grounds by the time they should be" from dms and vestige
+        "\"Let the game catch up with itself\"" from dms and vestige
