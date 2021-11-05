@@ -36,3 +36,6 @@ Pre 7/30/21 -
         "\"Mansion Game\" chant." from dms
         "Someone is not logged into Fantasy Grounds by the time they should be" from dms and vestige (if it doesn't happen at the beginning of game, it becomes a dead square)
         "\"Let the game catch up with itself\"" from dms and vestige (hasn't happened for a while as far as I can recall)
+11/04/21 (part 2) - 
+    Added the following squares:
+        "Logan keeps recharging monster abilities"
