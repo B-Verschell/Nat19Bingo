@@ -192,6 +192,9 @@ class Bingo extends React.Component {
           </>
           )};
         }
+
         
         export default Bingo;
+        
+
         
