@@ -96,7 +96,7 @@ class Bingo extends React.Component {
         // console.log("huh")
         itemList.push(
           {"id": 0,
-          "item": "PENIS \n (Free Space)"
+          "item": "Free Space"
         })
       }
       else{
