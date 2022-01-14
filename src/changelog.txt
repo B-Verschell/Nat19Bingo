@@ -39,3 +39,9 @@ Pre 7/30/21 -
 11/04/21 (part 2) - 
     Added the following squares:
         "Logan keeps recharging monster abilities"
+
+01/13/22
+    Changed the following squares:
+        "A player goes from maximum style points to zero from rolling a 1" to "A player looses all their style points from rolling a 1"
+        "PENIS \n (Free Space)" to "Free Space"
+
