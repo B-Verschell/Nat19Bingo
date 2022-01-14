@@ -98,7 +98,7 @@
     },
     {
         "id": 35,
-        "item":"A player goes from maximum style points to zero from rolling a 1"
+        "item":"A player looses all their style from rolling a 1"
     },
     {
         "id": 27,
@@ -151,6 +151,10 @@
     {
         "id": 25,
         "item":"Logan keeps recharging monster abilities"
+    },
+    {
+        "id": 40,
+        "item":"Characters from DMC refered to/are mentioned in game."
     }
 
 ]
