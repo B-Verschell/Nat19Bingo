@@ -45,3 +45,6 @@ Pre 7/30/21 -
         "A player goes from maximum style points to zero from rolling a 1" to "A player looses all their style points from rolling a 1"
         "PENIS \n (Free Space)" to "Free Space"
 
+01/15/22
+    Removed the quotations from "Sidebar:..." to make it more general.
+
