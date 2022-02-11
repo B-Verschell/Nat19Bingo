@@ -62,7 +62,7 @@
     },
     {
         "id": 16,
-        "item":"Logan says \"Heck’n\""
+        "item":"Logan says \"Heck'n\""
     },
     {
         "id": 17,
@@ -78,15 +78,15 @@
     },
     {
         "id": 20,
-        "item":"\"We’re playing nat19\" (AKA an enemy survives with 1 HP)"
+        "item":"\"We're playing nat19\" (AKA an enemy survives with 1 HP)"
     },
     {
         "id": 21,
-        "item":"Call back to non-D&D related pre-stream topic"
+        "item":"A rerolled die is just as bad or worse then the original roll."
     },
     {
         "id": 22,
-        "item":"A character in the game doesn’t understand an innuendo"
+        "item":"A character in the game doesn't understand an innuendo"
     },
     {
         "id": 23,
@@ -94,11 +94,11 @@
     },
     {
         "id": 24,
-        "item":"Logan mentions that he hasn’t had anything to eat yet today"
+        "item":"Logan mentions that he hasn't had anything to eat yet today"
     },
     {
         "id": 25,
-        "item":"Reality reasserts itself​"
+        "item":"Reality reasserts itself"
     },
     {
         "id": 26,
@@ -154,10 +154,14 @@
     },
     {
         "id": 39,
-        "item":"\"Sidebar:...\""
+        "item":"Sidebar:..."
     },
     {
         "id": 40,
         "item":"Logan keeps recharging monster abilities"
+    },
+    {
+        "id": 41,
+        "item":"CRITICAL HIT!"
     }
 ]
