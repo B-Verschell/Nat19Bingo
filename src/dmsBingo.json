@@ -78,7 +78,7 @@
     },
     {
         "id": 33,
-        "item":"Call back to non-D&D related pre-stream topic"
+        "item":"A character activates their Devil Trigger"
     },
     {
         "id": 34,
@@ -94,7 +94,7 @@
     },
     {
         "id": 38,
-        "item":"In reference to discussing Mariley's job \"There's a child nearby!\""
+        "item":"A rerolled die is just as bad or worse then the original roll."
     },
     {
         "id": 35,
@@ -110,11 +110,11 @@
     },
     {
         "id": 11,
-        "item":"Fio goes \"BEEP\""
+        "item":"Fio goes \"BEEP\" (or makes a similar noise)"
     },
     {
         "id": 2,
-        "item":"Niccolo hastily changes the topic of conversation"
+        "item":"Squeaky asks if she can charm the enemy"
     },
     {
         "id": 22,
@@ -146,7 +146,7 @@
     },
     {
         "id": 18,
-        "item":"\"Sidebar:...\""
+        "item":"Sidebar:..."
     },
     {
         "id": 25,
@@ -154,7 +154,11 @@
     },
     {
         "id": 40,
-        "item":"Characters from DMC refered to/are mentioned in game."
+        "item":"Characters from DMC refered to/are mentioned in game"
+    },
+    {
+        "id": 41,
+        "item":"CRITICAL HIT!"
     }
 
 ]
