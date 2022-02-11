@@ -48,3 +48,15 @@ Pre 7/30/21 -
 01/15/22
     Removed the quotations from "Sidebar:..." to make it more general.
 
+02/10/22
+    Removed the following square
+        "Call back to non-D&D related pre-stream topic" from both sheets.
+        "In reference to discussing Mariley's job \"There's a child nearby!\""
+        "Niccolo hastily changes the topic of conversation"
+    Changed the following squares
+        "Fio goes \"BEEP\"" to "Fio goes \"BEEP\" (or makes a similar noise)"
+    Added the following squares
+        "Squeaky asks if she can charm the enemy"
+        "A character activates their Devil Trigger"
+        "A rerolled die is just as bad or worse then the original roll."
+        "CRITICAL HIT!"
