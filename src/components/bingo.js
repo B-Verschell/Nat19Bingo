@@ -2,6 +2,9 @@ import React from 'react';
 import './bingo.css';
 import { Typography, Card, Grid, CardContent} from '@material-ui/core';
 import vestigeItems from '../vestigeBingo.json';
+import vestigeCommon from '../vestigeBingoCommon.json'
+import vestigeUncommon from '../vestigeBingoUncommon.json'
+import vestigeRare from '../vestigeBingoRare.json'
 import dmsItems from '../dmsBingo.json';
 import { styled } from '@material-ui/core/styles';
 import BingoHeader from './bingoHeader';
@@ -43,7 +46,7 @@ class Bingo extends React.Component {
     const game=url.substring(url.search("ingo/")+5)
     console.log(game)
     if(game=="vestige"){
-      this.bingoSetup(vestigeItems)
+      this.bingoSetupNew(vestigeCommon,vestigeUncommon,vestigeRare)
     }
     else if(game=="dms"){
       this.bingoSetup(dmsItems)
@@ -107,6 +110,53 @@ class Bingo extends React.Component {
         console.log(itemIndex) */
         itemList.push(bingoItemsList[itemIndex]);
         bingoItemsList.splice(itemIndex,1);
+      }
+    }
+    console.log(itemList)
+  }
+
+  bingoSetupNew(commonItems,uncommonItems,rareItems){
+    const commonItemsList=commonItems;
+    const uncommonItemsList=uncommonItems;
+    const rareItemsList=rareItems;
+    let itemIndex;
+    let listPick;
+    const setupList=[];
+    for (var i=0;i<24;i++){
+      listPick=Math.floor(Math.random()*7);
+        if(listPick<4 && commonItemsList.length>0){
+          itemIndex=Math.floor(Math.random()*commonItemsList.length);
+          setupList.push(commonItemsList[itemIndex]);
+          commonItemsList.splice(itemIndex,1);
+        }
+        else if((listPick>3 && listPick<7) || (listPick<4 && commonItemsList.length==0)){
+          itemIndex=Math.floor(Math.random()*uncommonItemsList.length);
+          setupList.push(uncommonItemsList[itemIndex]);
+          uncommonItemsList.splice(itemIndex,1);
+        }
+        else{
+          itemIndex=Math.floor(Math.random()*rareItemsList.length);
+          setupList.push(rareItemsList[itemIndex]);
+          rareItemsList.splice(itemIndex,1);
+        }
+    }
+    for (var i=0;i<25;i++){
+      // console.log(i+" is i")
+      if(i===12){
+        // console.log("huh")
+        itemList.push(
+          {"id": 0,
+          "item": "Free Space"
+        })
+      }
+      else{
+        
+        itemIndex=Math.floor(Math.random()*setupList.length);
+        /* console.log("list length: " + bingoItemsList.length)
+        console.log("item index: " + itemIndex)
+        console.log(itemIndex) */
+        itemList.push(setupList[itemIndex]);
+        setupList.splice(itemIndex,1);
       }
     }
     console.log(itemList)
