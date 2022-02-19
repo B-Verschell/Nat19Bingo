@@ -60,3 +60,6 @@ Pre 7/30/21 -
         "A character activates their Devil Trigger"
         "A rerolled die is just as bad or worse then the original roll."
         "CRITICAL HIT!"
+
+02/19/22
+    Split the Vestige Bingo list into three files based on rarity. The bingo now will select common squares 4/7 of the time, uncommon squares 2/7 of the time, and rare squares 1/7 of the time.
