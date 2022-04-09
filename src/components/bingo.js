@@ -5,11 +5,17 @@ import vestigeItems from '../vestigeBingo.json';
 import vestigeCommon from '../vestigeBingoCommon.json'
 import vestigeUncommon from '../vestigeBingoUncommon.json'
 import vestigeRare from '../vestigeBingoRare.json'
+import dmsCommon from '../dmsBingoCommon.json'
+import dmsUncommon from '../dmsBingoUncommon.json'
+import dmsRare from '../dmsBingoRare.json'
 import dmsItems from '../dmsBingo.json';
 import { styled } from '@material-ui/core/styles';
 import BingoHeader from './bingoHeader';
 import NoticeHeader from './noticeHeader';
 import BingoFooter from './bingoFooter';
+import generalCommon from '../generalBingoCommon.json'
+import generalUncommon from '../generalBingoUncommon.json'
+import generalRare from '../generalBingoRare.json'
 
 
 var itemList=[]
@@ -49,10 +55,10 @@ class Bingo extends React.Component {
       this.bingoSetupNew(vestigeCommon,vestigeUncommon,vestigeRare)
     }
     else if(game=="dms"){
-      this.bingoSetup(dmsItems)
+      this.bingoSetupNew(dmsCommon,dmsUncommon,dmsRare)
     }
     else{
-      this.bingoSetup([])
+      this.bingoSetup(generalCommon,generalUncommon,generalRare)
     }    
     this.state = {
       0: false,
@@ -135,9 +141,14 @@ class Bingo extends React.Component {
           uncommonItemsList.splice(itemIndex,1);
         }
         else{
+          if (rareItemsList.length>0){
           itemIndex=Math.floor(Math.random()*rareItemsList.length);
           setupList.push(rareItemsList[itemIndex]);
           rareItemsList.splice(itemIndex,1);
+          }
+          else{
+            i--;
+          }
         }
     }
     for (var i=0;i<25;i++){
