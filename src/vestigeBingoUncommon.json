@@ -33,30 +33,26 @@
     },
     {
         "id": 33,
-        "item":"\"Sorry Stewie\""
-    },
-    {
-        "id": 34,
-        "item":"Carrie threatens someone"
-    },
-    {
-        "id": 35,
         "item":"Merihim flirts with someone"
     },
     {
-        "id": 36,
+        "id": 34,
         "item":"A player forgets to unmute"
     },
     {
-        "id": 37,
+        "id": 35,
         "item":"Bread says \"LISTEN!\""
     },
     {
-        "id": 38,
+        "id": 36,
         "item":"Brute-forced the puzzle"
     },
     {
-        "id": 39,
+        "id": 37,
         "item":"Logan keeps recharging monster abilities"
+    },
+    {
+        "id": 38,
+        "item":"Cute romance moment between two characters"
     }
 ]
