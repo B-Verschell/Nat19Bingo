@@ -63,3 +63,7 @@ Pre 7/30/21 -
 
 02/19/22
     Split the Vestige Bingo list into three files based on rarity. The bingo now will select common squares 4/7 of the time, uncommon squares 2/7 of the time, and rare squares 1/7 of the time.
+
+04/09/22
+    Added the following square:
+        "Tag is best Party dad"
