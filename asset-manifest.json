@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/nat19bingo/static/css/main.1084c4e1.chunk.css",
-    "main.js": "/nat19bingo/static/js/main.1a855c31.chunk.js",
-    "main.js.map": "/nat19bingo/static/js/main.1a855c31.chunk.js.map",
+    "main.js": "/nat19bingo/static/js/main.78fe5900.chunk.js",
+    "main.js.map": "/nat19bingo/static/js/main.78fe5900.chunk.js.map",
     "runtime-main.js": "/nat19bingo/static/js/runtime-main.d3df5028.js",
     "runtime-main.js.map": "/nat19bingo/static/js/runtime-main.d3df5028.js.map",
     "static/css/2.4be38407.chunk.css": "/nat19bingo/static/css/2.4be38407.chunk.css",
-    "static/js/2.10163f9d.chunk.js": "/nat19bingo/static/js/2.10163f9d.chunk.js",
-    "static/js/2.10163f9d.chunk.js.map": "/nat19bingo/static/js/2.10163f9d.chunk.js.map",
+    "static/js/2.e4442f50.chunk.js": "/nat19bingo/static/js/2.e4442f50.chunk.js",
+    "static/js/2.e4442f50.chunk.js.map": "/nat19bingo/static/js/2.e4442f50.chunk.js.map",
     "index.html": "/nat19bingo/index.html",
     "static/css/2.4be38407.chunk.css.map": "/nat19bingo/static/css/2.4be38407.chunk.css.map",
     "static/css/main.1084c4e1.chunk.css.map": "/nat19bingo/static/css/main.1084c4e1.chunk.css.map",
-    "static/js/2.10163f9d.chunk.js.LICENSE.txt": "/nat19bingo/static/js/2.10163f9d.chunk.js.LICENSE.txt"
+    "static/js/2.e4442f50.chunk.js.LICENSE.txt": "/nat19bingo/static/js/2.e4442f50.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d3df5028.js",
     "static/css/2.4be38407.chunk.css",
-    "static/js/2.10163f9d.chunk.js",
+    "static/js/2.e4442f50.chunk.js",
     "static/css/main.1084c4e1.chunk.css",
-    "static/js/main.1a855c31.chunk.js"
+    "static/js/main.78fe5900.chunk.js"
   ]
 }
