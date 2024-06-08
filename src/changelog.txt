@@ -143,6 +143,7 @@ Pre 7/30/21 -
 
 06/01/24
     Added bingo board for Gilligan's Grave
+    Changed "Bread is bullied" to "Braden is bullied" due to her going by Braden more for Nat19 content.
 
 06/08/24
     Added the following squares to Gilligan's Grave:
