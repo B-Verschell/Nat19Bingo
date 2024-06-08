@@ -16,7 +16,7 @@ Pre 7/30/21 -
         "Someone apologizes for long emotional dialogue"
         "Returning a line to someone by saying \"No You\""
         "\"Have fun or else!\""
-    Added "Aviana epically kills something by stabbing it in the eye" to Vestige
+    Added "Avianna epically kills something by stabbing it in the eye" to Vestige
     Added "Cute romance moment between two characters" to all
     Changed ""\"Mansion Game\" chant" to "\"Mansion Game\" section occurs (must be 1+ hours long)"
 
@@ -67,3 +67,86 @@ Pre 7/30/21 -
 04/09/22
     Added the following square:
         "Tag is best Party dad"
+
+07/16/22
+    Changed Rarity frequency. Common is 35/48, Uncommon is 1/4 and Rare is 1/48
+    Removed the following squares:
+        Bread says "LISTEN!"
+        Spencer complains
+    Changed the rarity of the following squares:
+        "The time-honored Nat19 tradition of \"Con-based performance checks\"" from uncommon to rare
+    Changed the follwing square
+        Changed A separate/private call occurs to "One or more players recieve information that is hidden everyone else"
+        Changed Logan says \"Heck'n\"" to Someone says \"Heck'n\""
+
+10/06/22
+    Added the following square to DMS:
+        "The curse fires a warning shot" at common rarity.
+    Added the following squares to Vestige:
+        "Merihim is a pot stirrer/chaos engine" at uncommon rarity
+        "Wrench is refered to as a squirrel" at uncommon rarity
+    Removed the following square from DMS
+        "Technical Difficulties"
+
+01/14/23
+    Removed the following squares from Vestige due to leaving Honokuni:
+        "Tag is best Party dad" (Common)
+        "The characters are reminded that Honokuni is the worst" (Uncommon)
+        "Wrench is refered to as a squirrel" (Uncommon)
+    Moved from common to uncommon in Vestige:
+        "Someone makes a mistake with targeting in Fantasy Grounds
+        "Avianna epically kills something by stabbing it in the eye"
+    Added to Uncommon rarity for Vestige and DMS
+        "A character has a nova round"
+    Added to Common rarity for Vestige
+        "Sunder is adorable"
+04/22/23
+    Removed the following squares from Vestige
+        "Lexie has the second highest Int of the party"
+    Added the following squares to vestige
+        "High INT, low WIS moment"
+        "Someone maths incorrectly"
+05/27/23
+    Added the following uncommon squares to vestige
+        ""\"Oh shit, I forgot about Bingo!\""
+        "Nat19 website gets an update"
+06/10/23
+    Moved "Spencer gets crit on" to uncommon.
+    Moved "A rerolled die is equal to or less than the original roll" to uncommon
+    Added "Reactive image issues" to uncommon
+
+10/21/23
+    Removed the following uncommon square:
+        "Nat19 website gets an update"
+11/18/23
+    Added following square to uncommon Vestige:
+        "Logan jinxes a roll"
+11/25/23
+    Added the following squares for the Sword of Damocles episodes to always be included
+        Do\/Did kill the moon
+        Don\'t\/Did not kill the moon
+
+12/09/23
+    Turned off the moon sqaures.
+
+02/17/24
+    Added the following square at rare frequency for DMS:
+        Squeaky is not there when called for.
+    Moved the following square from rare to common:
+        Characters from DMC refered to/are mentioned in game
+
+04/13/24
+    Removed deactivatd buttons for bingo boards that do not exist.
+    Removed the following square from DMS
+        "Briar shows up" - Due to spoilers
+        "At least 50% of the players fall for a newly introduced NPC" Due to approacing end game.
+
+06/01/24
+    Added bingo board for Gilligan's Grave
+
+06/08/24
+    Added the following squares to Gilligan's Grave:
+        Common: Laurence flirts with somebody too old for him
+        Common: Laurence showboats
+        Uncommon: A friendly conversation about a backstory
+        Uncommon: Skarn is a good son

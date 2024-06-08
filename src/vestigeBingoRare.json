@@ -1,10 +1,18 @@
 [
     {
-        "id": 39,
+        "id": 37,
         "item": "Briar shows up"
     },
     {
-        "id": 40,
+        "id": 38,
         "item":"Logan mentions that he hasn't had anything to eat yet today"
+    },
+    {
+        "id": 39,
+        "item":"The time-honored Nat19 tradition of \"Con-based performance checks\""
+    },
+    {
+        "id": 42,
+        "item":"Character lore drop"
     }
 ]

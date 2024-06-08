@@ -1,9 +1,5 @@
 [
     {
-        "id": 4,
-        "item": "Hayden cries"
-    },
-    {
         "id": 5,
         "item":"A player experiences instant karma/regret"
     },
@@ -18,10 +14,6 @@
     {
         "id": 13,
         "item":"Barking or other noise in background"
-    },
-    {
-        "id": 14,
-        "item":"Technical difficulties"
     },
     {
         "id": 15,
@@ -52,10 +44,6 @@
         "item":"Fio goes \"BEEP\" (or makes a similar noise)"
     },
     {
-        "id": 2,
-        "item":"Squeaky asks if she can charm the enemy"
-    },
-    {
         "id": 22,
         "item":"Style Actions are used"
     },
@@ -78,5 +66,21 @@
     {
         "id": 18,
         "item":"Sidebar:..."
+    },
+    {
+        "id": 1,
+        "item":"The curse fires a warning shot"
+    },
+    {
+        "id": 41,
+        "item":"Immanuel goes \"Beh!\""
+    },
+    {
+        "id": 42,
+        "item":"Geno destroys most of the enemies himself"
+    },
+    {
+        "id": 40,
+        "item":"Characters from DMC refered to/are mentioned in game"
     }
 ]

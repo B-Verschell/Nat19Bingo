@@ -4,11 +4,19 @@
         "item":"A player forgets to unmute"
     },
     {
-        "id": 40,
-        "item":"Characters from DMC refered to/are mentioned in game"
-    },
-    {
         "id": 25,
         "item":"Logan keeps recharging monster abilities"
+    },
+    {
+        "id": 24,
+        "item":"The time-honored Nat19 tradition of \"Con-based performance checks\""
+    },
+    {
+        "id": 17,
+        "item":"One or more players recieve information that is hidden everyone else"
+    },
+    {
+        "id": 44,
+        "item":"Squeaky is not there when called for."
     }
 ]

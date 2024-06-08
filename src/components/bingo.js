@@ -8,6 +8,9 @@ import vestigeRare from '../vestigeBingoRare.json'
 import dmsCommon from '../dmsBingoCommon.json'
 import dmsUncommon from '../dmsBingoUncommon.json'
 import dmsRare from '../dmsBingoRare.json'
+import ggCommon from '../ggBingoCommon.json'
+import ggUncommon from '../ggBingoUncommon.json'
+import ggRare from '../ggBingoRare.json'
 import dmsItems from '../dmsBingo.json';
 import { styled } from '@material-ui/core/styles';
 import BingoHeader from './bingoHeader';
@@ -51,11 +54,14 @@ class Bingo extends React.Component {
     console.log(url.substring(url.search("ingo/")+5))
     const game=url.substring(url.search("ingo/")+5)
     console.log(game)
-    if(game=="vestige"){
+    if(game==="vestige"){
       this.bingoSetupNew(vestigeCommon,vestigeUncommon,vestigeRare)
     }
-    else if(game=="dms"){
+    else if(game==="dms"){
       this.bingoSetupNew(dmsCommon,dmsUncommon,dmsRare)
+    }
+    else if(game==="gilligan"){
+      this.bingoSetupNew(ggCommon,ggUncommon,ggRare,"URBriar")
     }
     else{
       this.bingoSetup(generalCommon,generalUncommon,generalRare)
@@ -120,37 +126,115 @@ class Bingo extends React.Component {
     }
     console.log(itemList)
   }
-
-  bingoSetupNew(commonItems,uncommonItems,rareItems){
+  
+  bingoSetupNew(commonItems,uncommonItems,rareItems, special){
     const commonItemsList=commonItems;
     const uncommonItemsList=uncommonItems;
     const rareItemsList=rareItems;
     let itemIndex;
     let listPick;
     const setupList=[];
-    for (var i=0;i<24;i++){
-      listPick=Math.floor(Math.random()*7);
-        if(listPick<4 && commonItemsList.length>0){
+    /* if (moonbingo){
+      for (var i=0;i<22;i++){
+        listPick=Math.floor(Math.random()*48);
+        if(listPick<36 && commonItemsList.length>0){
           itemIndex=Math.floor(Math.random()*commonItemsList.length);
           setupList.push(commonItemsList[itemIndex]);
           commonItemsList.splice(itemIndex,1);
         }
-        else if((listPick>3 && listPick<7) || (listPick<4 && commonItemsList.length==0)){
+        else if((listPick>35 && listPick<46) || (listPick<4 && commonItemsList.length==0)){
           itemIndex=Math.floor(Math.random()*uncommonItemsList.length);
           setupList.push(uncommonItemsList[itemIndex]);
           uncommonItemsList.splice(itemIndex,1);
         }
         else{
           if (rareItemsList.length>0){
-          itemIndex=Math.floor(Math.random()*rareItemsList.length);
-          setupList.push(rareItemsList[itemIndex]);
-          rareItemsList.splice(itemIndex,1);
+            itemIndex=Math.floor(Math.random()*rareItemsList.length);
+            setupList.push(rareItemsList[itemIndex]);
+            rareItemsList.splice(itemIndex,1);
           }
           else{
             i--;
           }
         }
+      }
+      setupList.push(
+        {"id": 101,
+        "item": "Do\/Did kill the moon"
+      })
+      setupList.push(
+        {"id": 100,
+        "item": "Don\'t\/Did not kill the moon"
+      })
     }
+    else if (finalbingo){
+      for (var i=0;i<22;i++){
+        listPick=Math.floor(Math.random()*48);
+        if(listPick<36 && commonItemsList.length>0){
+          itemIndex=Math.floor(Math.random()*commonItemsList.length);
+          setupList.push(commonItemsList[itemIndex]);
+          commonItemsList.splice(itemIndex,1);
+        }
+        else if((listPick>35 && listPick<46) || (listPick<4 && commonItemsList.length==0)){
+          itemIndex=Math.floor(Math.random()*uncommonItemsList.length);
+          setupList.push(uncommonItemsList[itemIndex]);
+          uncommonItemsList.splice(itemIndex,1);
+        }
+        else{
+          if (rareItemsList.length>0){
+            itemIndex=Math.floor(Math.random()*rareItemsList.length);
+            setupList.push(rareItemsList[itemIndex]);
+            rareItemsList.splice(itemIndex,1);
+          }
+          else{
+            i--;
+          }
+        }
+      }
+      setupList.push(
+        {"id": 103,
+        "item": "Free space for finale"
+      })
+      setupList.push(
+        {"id": 104,
+        "item": "Every player cries"
+      })
+    } */
+      for (var i=0;i<24;i++){
+        if(special==="URBriar" && i==0){
+          let briarRoll=Math.random()*1000;
+          if(briarRoll==1){
+            setupList.push(
+              {"id": 105,
+              "item": "UR Square \n Briar shows up"
+            })
+            special="";
+            continue;
+          }
+
+        }
+        listPick=Math.floor(Math.random()*48);
+        if((listPick<36 && commonItemsList.length>0) || (listPick>35 && listPick<46 && uncommonItemsList.length==0)){
+          itemIndex=Math.floor(Math.random()*commonItemsList.length);
+          setupList.push(commonItemsList[itemIndex]);
+          commonItemsList.splice(itemIndex,1);
+        }
+        else if((listPick>35 && listPick<46) || (listPick<36 && commonItemsList.length==0)){
+          itemIndex=Math.floor(Math.random()*uncommonItemsList.length);
+          setupList.push(uncommonItemsList[itemIndex]);
+          uncommonItemsList.splice(itemIndex,1);
+        }
+        else{
+          if (rareItemsList.length>0){
+            itemIndex=Math.floor(Math.random()*rareItemsList.length);
+            setupList.push(rareItemsList[itemIndex]);
+            rareItemsList.splice(itemIndex,1);
+          }
+          else{
+            i--;
+          }
+        }
+      }
     for (var i=0;i<25;i++){
       // console.log(i+" is i")
       if(i===12){
@@ -158,7 +242,7 @@ class Bingo extends React.Component {
         itemList.push(
           {"id": 0,
           "item": "Free Space"
-        })
+        });
       }
       else{
         
@@ -235,9 +319,9 @@ class Bingo extends React.Component {
             }
           })
         }
-      </Grid>
-    )
-  }
+        </Grid>
+        )
+      }
       
       render() {
         return (
@@ -253,9 +337,9 @@ class Bingo extends React.Component {
           </>
           )};
         }
-
+        
         
         export default Bingo;
         
-
+        
         

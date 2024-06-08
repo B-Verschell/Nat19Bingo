@@ -1,31 +1,13 @@
 [
-    {
-        "id": 1,
-        "item": "Someone drops a huge donation or a large number of gift subs"
-    },
-    {
-        "id": 3,
-        "item": "Briar shows up"
-    },
-    {
-        "id": 6,
-        "item":"At least 50% of the players fall for a newly introduced NPC"
-    },
+    
+
     {
         "id": 8,
         "item":"Logan unveils new art that is used in game"
     },
     {
-        "id": 17,
-        "item":"A separate/private call occurs"
-    },
-    {
         "id": 20,
         "item":"Spencer complains"
-    },
-    {
-        "id": 24,
-        "item":"The time-honored Nat19 tradition of \"Con-based performance checks\""
     },
     {
         "id": 28,
@@ -53,7 +35,7 @@
     },
     {
         "id": 38,
-        "item":"A rerolled die is just as bad or worse then the original roll."
+        "item":"A rerolled die is just as bad or worse then the original roll"
     },
     {
         "id": 21,
@@ -62,6 +44,17 @@
     {
         "id": 10,
         "item":"Brute-forced the puzzle"
+    },
+    {
+        "id": 4,
+        "item": "Hayden cries"
+    },
+    {
+        "id": 2,
+        "item":"Squeaky asks if she can charm the enemy"
+    },
+    {
+        "id": 43,
+        "item":"Niccolo gains and/or loses a vehicle"
     }
-    
 ]

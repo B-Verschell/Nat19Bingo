@@ -1,0 +1,94 @@
+[
+    {
+        "id": 2,
+        "item":"A nat 19 is rolled"
+    },
+    {
+        "id": 4,
+        "item":"Barking or other noise in background"
+    },
+    {
+        "id": 5,
+        "item":"Technical difficulties"
+    },
+    {
+        "id": 6,
+        "item":"Shit hits the fan in game"
+    },
+    {
+        "id": 11,
+        "item":"One or more players just breaks down into laughter."
+    },
+    {
+        "id": 12,
+        "item":"Laurence gives Bardic Inspiration"
+    },
+    {
+        "id": 16,
+        "item":"CRITICAL HIT!"
+    },
+    {
+        "id": 17,
+        "item":"Nat 1"
+    },
+    {
+        "id": 20,
+        "item":"Lillia uses a Virtuous Branch feature"
+    },
+    {
+        "id": 21,
+        "item":"Pepper uses an eldritch invocation"
+    },
+    {
+        "id": 22,
+        "item":"Skarn uses focus points"
+    },
+    {
+        "id": 23,
+        "item":"Laurence uses Leap of Faith"
+    },
+    {
+        "id": 24,
+        "item":"Desmond uses his Gun Specialist feature"
+    },
+    {
+        "id": 25,
+        "item":"Lillia bestows a Wylam Bond"
+    },
+    {
+        "id": 26,
+        "item":"Pepper uses her Curriculum Spell feature"
+    },
+    {
+        "id": 28,
+        "item":"\"Mansion Game\" section occurs (must be 1+ hours long)"
+    },
+    {
+        "id": 29,
+        "item":"Braden is bullied"
+    },
+    {
+        "id": 30,
+        "item":"Someone jinxes a roll"
+    },
+    {
+        "id": 31,
+        "item":"Skarn has a nova round"
+    },
+    {
+        "id": 32,
+        "item":"A 5.19 original spell is cast"
+    },
+    {
+        "id": 33,
+        "item":"A 5.19 modified spell is cast"
+    },
+    {
+        "id": 34,
+        "item":"Laurence flirts with somebody too old for him"
+    },
+    {
+        "id": 35,
+        "item":"Laurence showboats"
+    }
+]
