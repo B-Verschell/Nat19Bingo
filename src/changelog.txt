@@ -151,3 +151,12 @@ Pre 7/30/21 -
         Common: Laurence showboats
         Uncommon: A friendly conversation about a backstory
         Uncommon: Skarn is a good son
+06/15/24
+    Added the following squares to Gilligan's Grave:
+        Common: Desmond goes for his gun (outside of combat)
+        Common: Pepper says \"I reckon\"
+        Common: Skarn has tall person problems
+        Uncommon: Laurance backhandidly insults someone
+        Uncommon: Tabasco does something cute
+        Uncommon: Desmond acts like a cop
+        Rare: Lillia uses her customer service voice

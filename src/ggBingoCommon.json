@@ -90,5 +90,17 @@
     {
         "id": 35,
         "item":"Laurence showboats"
+    },
+    {
+        "id": 41,
+        "item":"Desmond goes for his gun (outside of combat)"
+    },
+    {
+        "id": 43,
+        "item":"Pepper says \"I reckon\""
+    },
+    {
+        "id": 44,
+        "item":"Skarn has tall person problems"
     }
 ]
