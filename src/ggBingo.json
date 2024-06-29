@@ -143,7 +143,7 @@
     },
     {
         "id": 36,
-        "item":"A friendly conversation about a backstory"
+        "item":"We learn more about a PC's backstory"
     },
     {
         "id": 37,
@@ -151,7 +151,7 @@
     },
     {
         "id": 38,
-        "item":"Laurance backhandidly insults someone"
+        "item":"Laurance gives someone a backhanded compliment"
     },
     {
         "id": 39,
@@ -176,6 +176,18 @@
     {
         "id": 44,
         "item":"Skarn has tall person problems"
+    },
+    {
+        "id": 45,
+        "item":"A party member fails a strength based roll"
+    },
+    {
+        "id": 46,
+        "item":"Tabasco disobays someone"
+    },
+    {
+        "id": 47,
+        "item":"A PC's backstory gains new/increased relevance"
     }
 
 ]

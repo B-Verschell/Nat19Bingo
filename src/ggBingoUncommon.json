@@ -45,7 +45,7 @@
     },
     {
         "id": 36,
-        "item":"A friendly conversation about a backstory"
+        "item":"We learn more about a PC's backstory"
     },
     {
         "id": 37,
@@ -53,7 +53,7 @@
     },
     {
         "id": 38,
-        "item":"Laurance backhandidly insults someone"
+        "item":"Laurance gives someone a backhanded compliment"
     },
     {
         "id": 39,
@@ -62,5 +62,9 @@
     {
         "id": 40,
         "item":"Desmond acts like a cop"
+    },
+    {
+        "id": 45,
+        "item":"A party member fails a strength based roll"
     }
 ]

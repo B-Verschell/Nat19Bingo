@@ -160,3 +160,12 @@ Pre 7/30/21 -
         Uncommon: Tabasco does something cute
         Uncommon: Desmond acts like a cop
         Rare: Lillia uses her customer service voice
+
+06/29/24
+    Modified the following square:
+        "Laurance backhandidly insults someone" to "Laurance gives someone a backhanded compliment"
+        "A friendly conversation about a backstory" to "We learn more about a PC's backstory"
+    Added the following squares:
+        Uncommon: A party member fails a strength based roll
+        Rare: Tabasco disobays someone
+        Rare: A PC's backstory gains new/increased relevance
