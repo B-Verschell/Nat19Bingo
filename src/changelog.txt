@@ -169,3 +169,14 @@ Pre 7/30/21 -
         Uncommon: A party member fails a strength based roll
         Rare: Tabasco disobays someone
         Rare: A PC's backstory gains new/increased relevance
+
+07/13/24
+    Removed the following square:
+        Pepper uses an eldritch invocation
+    Added:
+        Common: Pepper casts Eldritch Blast
+
+08/03/24
+    Removed the following squares:
+        Pepper uses her Curriculum Spell feature
+        Desmond uses his Gun Specialist feature

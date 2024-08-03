@@ -83,7 +83,7 @@
     },
     {
         "id": 21,
-        "item":"Pepper uses an eldritch invocation"
+        "item":"Pepper casts Eldritch Blast"
     },
     {
         "id": 22,
@@ -95,7 +95,7 @@
     },
     {
         "id": 24,
-        "item":"Desmond uses his Gun Specialist feature"
+        "item":"A PC's backstory gains new/increased relevance"
     },
     {
         "id": 25,
@@ -103,7 +103,7 @@
     },
     {
         "id": 26,
-        "item":"Pepper uses her Curriculum Spell feature"
+        "item":"Tabasco disobays someone"
     },
     {
         "id": 27,
@@ -159,7 +159,7 @@
     },
     {
         "id": 40,
-        "item":"Desmond acts like a cop"
+        "item":"Desmond is a cop"
     },
     {
         "id": 41,
@@ -180,14 +180,6 @@
     {
         "id": 45,
         "item":"A party member fails a strength based roll"
-    },
-    {
-        "id": 46,
-        "item":"Tabasco disobays someone"
-    },
-    {
-        "id": 47,
-        "item":"A PC's backstory gains new/increased relevance"
     }
 
 ]

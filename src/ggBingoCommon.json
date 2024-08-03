@@ -37,7 +37,7 @@
     },
     {
         "id": 21,
-        "item":"Pepper uses an eldritch invocation"
+        "item":"Pepper casts Eldritch Blast"
     },
     {
         "id": 22,
@@ -48,16 +48,8 @@
         "item":"Laurence uses Leap of Faith"
     },
     {
-        "id": 24,
-        "item":"Desmond uses his Gun Specialist feature"
-    },
-    {
         "id": 25,
         "item":"Lillia bestows a Wylam Bond"
-    },
-    {
-        "id": 26,
-        "item":"Pepper uses her Curriculum Spell feature"
     },
     {
         "id": 28,
