@@ -58,7 +58,7 @@ class Bingo extends React.Component {
       this.bingoSetupNew(vestigeCommon,vestigeUncommon,vestigeRare)
     }
     else if(game==="dms"){
-      this.bingoSetupNew(dmsCommon,dmsUncommon,dmsRare)
+      this.bingoSetupNew(dmsCommon,dmsUncommon,dmsRare,"finale")
     }
     else if(game==="gilligan"){
       this.bingoSetupNew(ggCommon,ggUncommon,ggRare,"URBriar")
@@ -212,6 +212,14 @@ class Bingo extends React.Component {
             continue;
           }
 
+        }
+        if(special=="finale" && i==0){
+          setupList.push(
+          {"id": 106,
+              "item": "Second free square for finale"
+            })
+            special="";
+            continue;
         }
         listPick=Math.floor(Math.random()*48);
         if((listPick<36 && commonItemsList.length>0) || (listPick>35 && listPick<46 && uncommonItemsList.length==0)){
