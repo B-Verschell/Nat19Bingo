@@ -20,6 +20,9 @@ import generalCommon from '../generalBingoCommon.json'
 import generalUncommon from '../generalBingoUncommon.json'
 import generalRare from '../generalBingoRare.json'
 
+let SIZE={height:750,width:750,rows:5,columns:5}
+let SQUARES=[];
+let CONTEXT=null;
 
 var itemList=[]
 const BingoItem = styled(Card)({
@@ -27,29 +30,57 @@ const BingoItem = styled(Card)({
   alignItems: 'center',
   justifyContent: 'center',
   textAlign: 'center',
-  width: "150px",
+    width: "150px",
   height: "150px",
   background: 'linear-gradient(135deg, #330665 40%, #D00117 90%)',
-  color: 'white'
+  color: 'white',
+  textShadow: '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000',
+
 })
-
-
 
 const CompletedItem = styled(Card)({
   display: "flex",
   alignItems: 'center',
   justifyContent: 'center',
   textAlign: 'center',
-  width: "150px",
+    width: "150px",
   height: "150px",
   background: 'linear-gradient(45deg, #1e824c 30%, #4ecdc4 90%)',
-  color: 'white'
+  color: 'white',
+  textShadow: '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000'
+
 })
+
+
+function initializeSquares(){
+  SQUARES=[];
+  for (let i=0;i<SIZE.rows;i++){
+    for(let j=0;j<SIZE.columns;j++){
+      SQUARES.push(new Square(i,j));
+    }
+  }
+}
+
+
+class Square{
+  constructor(rowIndex,colIndex){
+    this.rowIndex=rowIndex;
+    this.colIndex=colIndex;
+  }
+  draw(context){
+    context.beginPath();
+    context.rect(this.x,this.y,this.width,this.height)
+  }
+}
 
 class Bingo extends React.Component {
   
   constructor(props) {
     super(props);
+    this.generateBingo();
+  }
+
+  generateBingo(){
     const url=window.location.href
     console.log(url.substring(url.search("ingo/")+5))
     const game=url.substring(url.search("ingo/")+5)
@@ -93,7 +124,6 @@ class Bingo extends React.Component {
       23: false,
       24: false
     };
-    
   }
   
   markComplete = e => {
@@ -201,19 +231,19 @@ class Bingo extends React.Component {
       })
     } */
       for (var i=0;i<24;i++){
-        if(special==="URBriar" && i==0){
+        if(special==="URBriar" && i===0){
           let briarRoll=Math.random()*1000;
-          if(briarRoll==1){
+          if(briarRoll===1){
             setupList.push(
               {"id": 105,
-              "item": "UR Square \n Briar shows up"
+              "item": "UR: Briar shows up and gives you a free square"
             })
             special="";
             continue;
           }
 
         }
-        if(special=="finale" && i==0){
+        if(special==="finale" && i===0){
           setupList.push(
           {"id": 106,
               "item": "Second free square for finale"
@@ -222,12 +252,12 @@ class Bingo extends React.Component {
             continue;
         }
         listPick=Math.floor(Math.random()*48);
-        if((listPick<36 && commonItemsList.length>0) || (listPick>35 && listPick<46 && uncommonItemsList.length==0)){
+        if((listPick<36 && commonItemsList.length>0) || (listPick>35 && listPick<46 && uncommonItemsList.length===0)){
           itemIndex=Math.floor(Math.random()*commonItemsList.length);
           setupList.push(commonItemsList[itemIndex]);
           commonItemsList.splice(itemIndex,1);
         }
-        else if((listPick>35 && listPick<46) || (listPick<36 && commonItemsList.length==0)){
+        else if((listPick>35 && listPick<46) || (listPick<36 && commonItemsList.length===0)){
           itemIndex=Math.floor(Math.random()*uncommonItemsList.length);
           setupList.push(uncommonItemsList[itemIndex]);
           uncommonItemsList.splice(itemIndex,1);
@@ -243,7 +273,7 @@ class Bingo extends React.Component {
           }
         }
       }
-    for (var i=0;i<25;i++){
+    for (i=0;i<25;i++){
       // console.log(i+" is i")
       if(i===12){
         // console.log("huh")
@@ -272,7 +302,8 @@ class Bingo extends React.Component {
   }
   
   bingoRow(row) {
-    let rowOne = itemList.slice(0, 5);
+    let renderRow=itemList.slice((row-1)*5,row*5);
+    /* let rowOne = itemList.slice(0, 5);
     let rowTwo = itemList.slice(5, 10);
     let rowThree = itemList.slice(10, 15);
     let rowFour = itemList.slice(15, 20);
@@ -296,17 +327,17 @@ class Bingo extends React.Component {
       break;
       default:
       renderRow = rowOne;
-    }
+    } */
     return (
-      <Grid container justify="center" alignItems="center" alignContent="center" spacing={0}>
+      <Grid container justify="center" alignItems="center" alignContent="center" spacing={0} >
       {renderRow.map(item => {
         const id = item.id;
         if (this.state[id] === true) {
           return (
             <Grid item key={item.id}>
-            <CompletedItem id={id}>
-            <CardContent id={item.id} onClick={this.markUnComplete}>
-            <Typography id={item.id} onClick={this.markUnComplete} gutterBottom>
+            <CompletedItem id={id} onClick={this.markUnComplete}>
+            <CardContent id={item.id}>
+            <Typography id={item.id} gutterBottom>
             {item.item}</Typography>
             </CardContent>
             </CompletedItem>
@@ -316,9 +347,9 @@ class Bingo extends React.Component {
           else {
             return (
               <Grid item key={item.id}>
-              <BingoItem > 
-              <CardContent id={item.id} onClick={this.markComplete}>
-              <Typography  id={item.id} onClick={this.markComplete} gutterBottom>
+              <BingoItem  id={item.id} onClick={this.markComplete}> 
+              <CardContent id={item.id}>
+              <Typography  id={item.id} gutterBottom>
               {item.item}</Typography>
               </CardContent>
               </BingoItem>
@@ -332,9 +363,10 @@ class Bingo extends React.Component {
       }
       
       render() {
+
         return (
           <>
-          <BingoHeader />
+          <BingoHeader/>
           <NoticeHeader/>
           {this.bingoRow(1)}
           {this.bingoRow(2)}

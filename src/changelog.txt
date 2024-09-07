@@ -167,7 +167,7 @@ Pre 7/30/21 -
         "A friendly conversation about a backstory" to "We learn more about a PC's backstory"
     Added the following squares:
         Uncommon: A party member fails a strength based roll
-        Rare: Tabasco disobays someone
+        Rare: Tabasco disobeys someone
         Rare: A PC's backstory gains new/increased relevance
 
 07/13/24
@@ -180,3 +180,27 @@ Pre 7/30/21 -
     Removed the following squares:
         Pepper uses her Curriculum Spell feature
         Desmond uses his Gun Specialist feature
+
+08/24/24
+    Noted that Desmond's favored enemy is undead.
+
+
+09/07/24
+    Lots of backend stuff in preperation for a big addition/change.
+    Removed the following square:
+        Uncommon: Laurance gives someone a backhanded compliment
+        Rare: Tabasco disobeys someone
+        Uncommon: We learn more about a PC's backstory
+    Added the following squares:
+        Common: Justice smelts his dice
+        Uncommon: Skarn is poisoned, drunk, and/or hungover
+        Uncommon: Pepper bumbles into a fight
+        Uncommon: Death flag!
+        Uncommon: PC enters the dying condition
+        Rare: Tabasco hates Laurence
+        Rare: Pepper chews on something that isn't food
+    Changed the following square:
+        "At least 50% of the players fall for a newly introduced NPC" -> "At least 50% of the players get attached to a newly introduced NPC"
+    Moved the following squares:
+        Laurence showboats: Common -> Uncommon
+        \"Mansion Game\" section occurs (must be 1+ hours long): Common -> Rare

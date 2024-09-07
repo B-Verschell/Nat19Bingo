@@ -8,11 +8,19 @@
         "item":"Lillia uses her customer service voice"
     },
     {
-        "id": 26,
-        "item":"Tabasco disobays someone"
-    },
-    {
         "id": 24,
         "item":"A PC's backstory gains new/increased relevance"
+    },
+    {
+        "id": 46,
+        "item":"Pepper chews on something that isn't food"
+    },
+    {
+        "id": 48,
+        "item":"Tabasco hates Laurence"
+    },
+    {
+        "id": 28,
+        "item":"\"Mansion Game\" section occurs (must be 1+ hours long)"
     }
 ]

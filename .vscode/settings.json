@@ -1,4 +1,7 @@
 {
     "html.validate.scripts": false,
-    "html.validate.styles": false
+    "html.validate.styles": false,
+    "files.readonlyInclude": {
+        "{**/.c4z/.extsrcs/*.PROTSYM.cbl,**/.c4z/.extsrcs/*.PROTSYM.listing}": true
+    }
 }

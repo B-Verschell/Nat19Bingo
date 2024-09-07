@@ -52,10 +52,6 @@
         "item":"Lillia bestows a Wylam Bond"
     },
     {
-        "id": 28,
-        "item":"\"Mansion Game\" section occurs (must be 1+ hours long)"
-    },
-    {
         "id": 29,
         "item":"Braden is bullied"
     },
@@ -80,10 +76,6 @@
         "item":"Laurence flirts with somebody too old for him"
     },
     {
-        "id": 35,
-        "item":"Laurence showboats"
-    },
-    {
         "id": 41,
         "item":"Desmond goes for his gun (outside of combat)"
     },
@@ -94,5 +86,9 @@
     {
         "id": 44,
         "item":"Skarn has tall person problems"
+    },
+    {
+        "id": 49,
+        "item":"Justice smelts his dice"
     }
 ]

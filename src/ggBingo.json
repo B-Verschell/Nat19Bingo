@@ -27,7 +27,7 @@
     },
     {
         "id": 7,
-        "item":"Logan says \"Heck’n\""
+        "item":"Someone says \"Heck’n\""
     },
     {
         "id": 8,
@@ -75,7 +75,7 @@
     },
     {
         "id": 19,
-        "item":"Desmond encounters his favored enemy"
+        "item":"Desmond encounters his favored enemy (undead)"
     },
     {
         "id": 20,
@@ -103,11 +103,11 @@
     },
     {
         "id": 26,
-        "item":"Tabasco disobays someone"
+        "item":"Death flag!"
     },
     {
         "id": 27,
-        "item":"At least 50% of the players fall for a newly introduced NPC"
+        "item":"At least 50% of the players get attached to a newly introduced NPC"
     },
     {
         "id": 28,
@@ -143,7 +143,7 @@
     },
     {
         "id": 36,
-        "item":"We learn more about a PC's backstory"
+        "item":"PC enters the dying condition"
     },
     {
         "id": 37,
@@ -151,7 +151,7 @@
     },
     {
         "id": 38,
-        "item":"Laurance gives someone a backhanded compliment"
+        "item":"Pepper bumbles into a fight"
     },
     {
         "id": 39,
@@ -180,6 +180,22 @@
     {
         "id": 45,
         "item":"A party member fails a strength based roll"
+    },
+    {
+        "id": 46,
+        "item":"Pepper chews on something that isn't food"
+    },
+    {
+        "id": 47,
+        "item":"Skarn is poisoned, drunk, and/or hungover"
+    },
+    {
+        "id": 48,
+        "item":"Tabasco hates Laurence"
+    },
+    {
+        "id": 49,
+        "item":"Justice smelts his dice"
     }
 
 ]
