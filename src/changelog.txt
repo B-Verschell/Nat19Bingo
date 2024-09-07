@@ -201,6 +201,7 @@ Pre 7/30/21 -
         Rare: Pepper chews on something that isn't food
     Changed the following square:
         "At least 50% of the players fall for a newly introduced NPC" -> "At least 50% of the players get attached to a newly introduced NPC"
+        Laurence uses Leap of Faith -> Laurence uses Leap of Faith/Inspiring Sting
     Moved the following squares:
         Laurence showboats: Common -> Uncommon
         \"Mansion Game\" section occurs (must be 1+ hours long): Common -> Rare
